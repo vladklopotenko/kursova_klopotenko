@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Your Energy</title>
+    <script>
+      (function () {
+        // Redirect GitHub Pages 404s to SPA entry while keeping the path.
+        var repo = '/kursova_klopotenko-main';
+        var path = location.pathname;
+        if (path.startsWith(repo)) path = path.slice(repo.length);
+        var target = repo + '/#' + path + location.search + location.hash;
+        location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
