@@ -20,6 +20,9 @@ npm run preview
 
 Використовується API: `https://your-energy.b.goit.study`.
 
+- Swagger: https://your-energy.b.goit.study/api-docs/#/
+- Figma: https://www.figma.com/file/1ifqGcQBIzMoc21yIqyV5q/Your-energy?type=design&node-id=205-6586&mode=design
+
 ## Функціонал
 
 - Quote of the day (кешування 1 раз на день у localStorage)
@@ -30,3 +33,8 @@ npm run preview
 - Модальне вікно вправи + форма оцінювання
 - Favorites (localStorage)
 - Підписка на email (subscription)
+
+## Deploy
+
+GitHub Pages (через Actions):
+- https://github.com/vladklopotenko/kursova_klopotenko-main
